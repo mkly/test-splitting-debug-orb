@@ -1,0 +1,9 @@
+parameters:
+  test_results_path:
+    description: The path of the directory containing the test results
+    type: string
+steps:
+  - store_artifacts:
+      path: /.circleci-task-data/circle-test-results
+  - store_artifacts:
+      path: <<parameters.test_results_path>>

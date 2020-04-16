@@ -1,0 +1,6 @@
+version: 2.1
+
+description: For debugging test splitting
+
+display:
+  source_url: https://github.com/mkly/test-splitting-debug-orb
